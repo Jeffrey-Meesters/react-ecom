@@ -3,8 +3,10 @@ import "./App.css";
 
 import Homepage from "./components/homepage.component";
 
-function App() {
-  return <Homepage />;
-}
+const App = () => (
+  <div>
+    <Homepage />;
+  </div>
+);
 
 export default App;
