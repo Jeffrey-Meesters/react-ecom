@@ -3,13 +3,8 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-bottom: 25px;
-
-  .logo-container {
-    height: 100%;
-    width: 70px;
-    padding: 25px;
-  }
 
   .options {
     width: 50%;
@@ -19,8 +14,14 @@
     justify-content: flex-end;
 
     .option {
-      padding: 10px 15px;
+      font-weight: bold;
+      font-size: 16px;
       text-transform: uppercase;
+      padding: 10px 15px;
+
+      &:last-child {
+        padding: 10px 10px;
+      }
     }
   }
 }
